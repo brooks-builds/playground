@@ -9,3 +9,4 @@ edition = "2021"
 axum = "0.5.17"
 futures = "0.3.25"
 tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread", "fs", "io-util"] }
+tokio-util = { version = "0.7.4", features = ["full"] }

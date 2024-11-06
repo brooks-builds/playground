@@ -9,6 +9,8 @@ pub fn app() -> Html {
     html! {
         <main>
             <h1>{"Yewdux form"}</h1>
+            <img src="http://localhost:3000/play" alt="really large space image" />
+
             <BBForm />
         </main>
     }
